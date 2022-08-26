@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+
+    <!-- Each of these will throw a syntax error because there are ES6 import statements in these files-->
+    <script nomodule src="../dist/esm-es5/loader.js"></script>
+    <!-- <script nomodule src="../dist/esm-es5/stencil-ie11-test.js"></script> -->
+    <!-- <script nomodule src="../dist/esm-es5/my-component.entry.js"></script> -->
+
+    <!-- This will not fail to load because there's nothing in index.js -->
+    <!-- <script nomodule src="../dist/esm-es5/index.js"></script> -->
+  </head>
+  <body>
+    <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+  </body>
+</html>
